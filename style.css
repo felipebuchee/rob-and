@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #543310;
+}
+
+.header-top {
+    background-color: #F8F4E1;
+    padding: 20px 4%;
+}
+
+.header-top .logo img{
+    max-width: 150px;
+}
+
+.header-top > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top .social button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: #543310 2px solid;
+    cursor: pointer;
+    color: #543310;
+}
+
+.header-bott nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.header-bott nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-weight: 500;
+    display: block;
+    transition: 0.25s;
+}
+
+.header-bott nav ul li a:hover {
+    background-color: #F8F4E1;
+    color: #543310;
+    box-shadow: inset 0 0 4px #54331072;
+    transition: 0.25s;
+}
+
+.drop-hover {
+    position: relative;
+}
+
+.drop-hover .drop {
+    position: absolute;
+    background-color: #764816;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.drop-hover .drop-msc {
+    position: absolute;
+    background-color: #764816;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.drop-hover .drop a {
+    padding: 20px;
+}
+
+.drop-hover .drop-msc a {
+    padding: 20px;
+}
+
+.drop-hover:hover .drop{
+    height: 200%;
+    transition: 0.5s;
+}
+
+.drop-hover:hover .drop-msc{
+    height: 235%;
+    transition: 0.5s;
+}
