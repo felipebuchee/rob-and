@@ -25,7 +25,7 @@ header {
 }
 
 .header-top .logo img{
-    max-width: 150px;
+    max-width: 125px;
 }
 
 .header-top > .interface {
@@ -106,4 +106,13 @@ header {
 .drop-hover:hover .drop-msc{
     height: 235%;
     transition: 0.5s;
+}
+
+.capaMain {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 800px;
+    width: auto;
+    zoom: 106.8%;
 }
