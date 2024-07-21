@@ -114,5 +114,52 @@ header {
     display: flex;
     height: 800px;
     width: auto;
-    zoom: 106.8%;
+    zoom: 110%;
+    overflow: hidden;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.537);
+
+
+}
+
+.datasAgenda {
+    background-color: #F8F4E1;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dias {
+    background: white;
+    border: black 2px solid;
+    padding: 20px;
+    margin: 10px;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #F8F4E1;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+background: #543310;
+border-radius: 3px;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #311e09; 
 }
