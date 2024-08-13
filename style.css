@@ -210,25 +210,143 @@ header {
     color: #F8F4E1;
 }
 
-.form-contato{
+.contact{
+    min-height: 75vh;
     background-color: #F8F4E1;
-    width: 99.6vw;
-    padding-left: 100px;
-    padding-top: 100px;
-    height: 500px;
-    overflow: hidden;
+    padding: 50px;
+    text-align: center;
 }
 
-.form-contato p{
-    display: block;
-    text-decoration: none;
-    font-weight: 700;
+.container{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.form-contato a{
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color:#311e09 ;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #543310;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f2ebcc;
+    transition: 0.5s;
+}
+
+input:focus, 
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px #76481663;
+    transition: 0.5s;
+}
+
+.form-button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #764816;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.form-button:hover{
+    scale: 1.1;
+    background-color: #311e09;
+    transition: 0.1s;
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #543310;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.contact-info a:hover{
+    text-decoration: underline;
+}
+
+.contact-info a{
     text-decoration: none;
     color: black;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+    width: 100%;
+    background-color: #311e09;
+    overflow-x: hidden;
+}
+
+.logo-footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img{
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.redes-sociais{
+    height: 35px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes-sociais button{
+    width: 50px;
+    height: auto;
+    font-size: 35px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    padding: 30px;
+}
+
 
 @keyframes scroll{
     0% {
