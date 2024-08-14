@@ -1,0 +1,29 @@
+.main-historia{
+    background-color: #F8F4E1;
+    min-height: 500px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+.hidden{
+    background-color: #F8F4E1;
+    padding-left: 170px;
+    padding-right: 170px;
+    opacity: 0;
+    transition: 2s all;
+    padding-bottom: 15px;
+    } 
+
+.show{
+    opacity: 1;
+    transition: 2s all;
+}
+
+.show{
+    padding: 0;
+}
+
+

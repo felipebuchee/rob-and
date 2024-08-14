@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -346,7 +351,6 @@ footer img{
     color: white;
     padding: 30px;
 }
-
 
 @keyframes scroll{
     0% {
