@@ -1,0 +1,38 @@
+*{
+    overflow-x: hidden;
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.album h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-size:40px;
+    transition: 1s;
+    background-color: transparent;
+    opacity: 100%;
+}
+
+.album .caixa-preta{
+    position: absolute;
+    background-color: black;
+    height: 1024px;
+    width: 100vw;
+    opacity: 90%;
+    transition: 2s;
+}
+
+.album .caixa-preta:hover{
+    opacity: 0;
+    transition: 5s;
+}
