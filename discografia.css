@@ -1,0 +1,42 @@
+.discografia {
+    padding-left: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+}
+
+.album-msc {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+}
+
+.imagem-album {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-album {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.ano-album {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
